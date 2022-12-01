@@ -22,10 +22,30 @@ const WorkHistory = ({ expanded }) => {
           }
         </h4>
         <h5 className="WorkHistory__title">
-          Chief Technology Officer / Technical Lead
+          Product Management Lead
         </h5>
         <p className="WorkHistory__duration">
-          2016 - present
+          2020 - present
+        </p>
+      </div>
+
+<div className="WorkHistory__item">
+        <h4 className="WorkHistory__company">
+          <a href="https://www.motusbank.ca/Accounts/Investing" target="_blank">
+            motusbank
+          </a>
+          {
+            expanded && 
+              <small className="WorkHistory__link-content">
+                { `https://www.motusbank.ca/Accounts/Investing` }
+              </small>
+          }
+        </h4>
+        <h5 className="WorkHistory__title">
+          Digital Product Manager
+        </h5>
+        <p className="WorkHistory__duration">
+          2019 - 2020
         </p>
       </div>
 
@@ -42,50 +62,47 @@ const WorkHistory = ({ expanded }) => {
           }
         </h4>
         <h5 className="WorkHistory__title">
-          Web Instructor / Lecturer
+         Digital Marketing and Product Manager
         </h5>
         <p className="WorkHistory__duration">
-          2015 - 2019
+          2019 - 2020
         </p>
       </div>
 
       <div className="WorkHistory__item">
         <h4 className="WorkHistory__company">
-          Functional Imperative
+         <a href="https://www.canadahelps.org/en/" target="_blank">
+           CanadaHelps 
+          </a>
+          {
+            expanded && 
+              <small className="WorkHistory__link-content">
+                { `https://www.canadahelps.org/en/` }
+              </small>
+          }
         </h4>
         <h5 className="WorkHistory__title">
-          Chief Technology Officer
+          Digital Marketing Associate, Production Lead
         </h5>
         <p className="WorkHistory__duration">
-          2012 - 2016
+          2018 - 2019
         </p>
       </div>
 
       <div className="WorkHistory__item">
         <h4 className="WorkHistory__company">
-          <a href="https://www.aegplc.com/" target="_blank">
-            AE Inc.
+          <a href="https://www.manulife.ca/personal/group-plans/group-retirement-solutions.html" target="_blank">
+            Manulife
           </a>
         </h4>
         <h5 className="WorkHistory__title">
-          Senior Developer
+          Intermediate Business Analyst
         </h5>
         <p className="WorkHistory__duration">
-          2008 - 2012
+          2014 - 2018
         </p>
       </div>
 
-      <div className="WorkHistory__item">
-        <h4 className="WorkHistory__company">
-          Nutracore Inc.
-        </h4>
-        <h5 className="WorkHistory__title">
-          Developer
-        </h5>
-        <p className="WorkHistory__duration">
-          2005 - 2008
-        </p>
-      </div>
     </section>
   )
 

@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-plugin-fontawesome-css-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-plugin-fontawesome-css-example",
+  "author": "Johnny Zabala",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "gatsby": "^3.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

@@ -1,0 +1,18 @@
+.CommonSection {
+  margin-top: 50px;
+}
+
+.CommonSection__title {
+  font-family: PoppinsBold;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DDD;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.CommonSection.expanded {
+  @include desktop {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,40 @@
+.WorkHistory {
+
+}
+
+.WorkHistory__item {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.WorkHistory__company {
+  font-family: NotoSerif;
+  font-size: 20px;
+  font-weight: bold;
+
+  @include desktop {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+.WorkHistory__title {
+  @include desktop {
+    font-size: 24px;
+  }
+
+  @include touch {
+    font-size: 18px;
+  }
+}
+
+.WorkHistory__link-content {
+  font-family: Poppins;
+  margin-left: 20px;
+  font-size: 18px;
+}

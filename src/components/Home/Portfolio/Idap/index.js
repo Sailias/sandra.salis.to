@@ -40,7 +40,7 @@ const Idap = ({}) => {
       </div>
       <div className="PortfolioItem__content">
         <h4 className="PortfolioItem__content-title">
-          <a href="https://candidate.votecompass.com/"> Informed Decision Assistance Platform (IDAP)
+          <a href="https://candidate.votecompass.com/" target="_blank"> Informed Decision Assistance Platform (IDAP)
           </a>
         </h4>
 
@@ -53,9 +53,8 @@ const Idap = ({}) => {
           <span className="tag is-medium">Process flow owner</span>
           <span className="tag is-medium">Continuous Improvements</span>
           <span className="tag is-medium">New feature builds</span>
-          <span className="tag is-medium">Client and user management</span>
+          <span className="tag is-medium">Client and user management and onboarding</span>
           <span className="tag is-medium">Cross functional team training</span>
-
         </div>
 
         <h4 className="PortfolioItem__content-features-title">

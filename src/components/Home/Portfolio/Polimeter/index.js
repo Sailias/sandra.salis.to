@@ -52,21 +52,28 @@ const Polimeter = ({ expanded }) => {
         </h4>
 
         <p className="PortfolioItem__content-description">
-          Polimeter is an independent initiative developed by political scientists that tracks whether politicians keep the promises they make.
+          Polimeter is an independent initiative developed by political scientists that tracks whether politicians keep the promises they make. In partnership with CLESSN, Center for Public Policy Analysis, McMaster University Digial Society Lab
         </p>
 
         <div className="PortfolioItem__content-stack tags">
-          <span className="tag is-medium">Elixir</span>
-          <span className="tag is-medium">Elixir: LiveView</span>
-          <span className="tag is-medium">Elixir: GenStage</span>
+          <span className="tag is-medium">Facilitated acquisition of IP</span>
+          <span className="tag is-medium">Product manager</span>
+          <span className="tag is-medium">Roadmap</span>
+          <span className="tag is-medium">Agile project manager</span>
+          <span className="tag is-medium">Partnerships</span>
+          <span className="tag is-medium">Software service training and onboarding</span>
+          <span className="tag is-medium">Service maintenance</span>
         </div>
 
         <h4 className="PortfolioItem__content-features-title">
           Features
         </h4>
         <ul>
-          <li>GenServer data caching for frequently accessed data</li>
+          <li>Polimeter service admin panel (Elixir: LiveView)</li>
           <li>Live View application to minimize JavaScript and maximize SEO</li>
+          <li>Polimeter landing page feed</li>
+          <li>Polimeter admin: inviting users and permissions, launching a Polimeter, defining political terms, managing promises, uploading data import files and validation, graph visualizations, localizations, adding custom filters and statuses, add custom modal content, partner logos, source documents</li>
+          <li>Polimeter users: customize Polimeter views, filters, Twitter and Facebook sharing, French or English language  </li>
         </ul>
       </div>
     </div>

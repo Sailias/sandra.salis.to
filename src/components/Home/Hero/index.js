@@ -8,45 +8,45 @@ const Hero = ({ expanded }) => {
       <div className="columns">
         <div className="column is-6">
           <h1 className="Hero__title">
-            Jon Salis
+            Sandra Salis
           </h1>
 
           <h2 className="Hero__subtitle">
-            Chief Technology Officer, full-stack developer with 15 years of experience
+            Toronto-based Digital Product Manager with a digital marketing and finance background - 10 years of experience
           </h2>
 
           <h2 className="Hero__subtitle">
-            14 years of Rails experience, 6 years of Elixir experience, 5 years of React experience.
+          Let's talk about your product and marketing needs. Connect with me!
           </h2>
 
           <div className="Hero__contact">
-            <a href="mailto:jon@salis.to">
+            <a href="mailto:sandra@salis.to">
               <FontAwesomeIcon icon={ ["fas", "envelope"] } />
               <span className="Hero__link-content">
-                { `jon@salis.to` }
+                { `sandra@salis.to` }
               </span>
             </a>
 
-            <a href="https://linkedin.com/in/jonathan-salis-a9567147" target="_blank">
+            <a href="https://linkedin.com/in/sandra-salis" target="_blank">
               <FontAwesomeIcon icon={ ["fab", "linkedin"] } />
               <span className="Hero__link-content">
-                { `https://linkedin.com/in/jonathan-salis-a9567147` }
+                { `https://linkedin.com/in/sandra-salis` }
               </span>
             </a>
 
-            <a href="https://github.com/sailias" target="_blank">
+            <a href="https://github.com/sandrasalis" target="_blank">
               <FontAwesomeIcon icon={ ["fab", "github"] } />
               <span className="Hero__link-content">
-                { `https://github.com/sailias` }
+                { `https://github.com/sandrasalis` }
               </span>
             </a>
 
             {
               expanded &&
-                <a href="https://jon.salis.to" target="_blank">
+                <a href="https://sandra.salis.to" target="_blank">
                   <FontAwesomeIcon icon={ ["fas", "globe"] } />
                   <span className="Hero__link-content">
-                    { `https://jon.salis.to` }
+                    { `https://sandra.salis.to` }
                   </span>
                 </a>
             }

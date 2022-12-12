@@ -20,7 +20,6 @@ const Portfolio = ({ expanded }) => {
         <Idap expanded={ expanded } />
         <DegreeHub expanded={ expanded }/>
         <Polimeter expanded={ expanded } />
-        <Echoes expanded={ expanded } />
       </div>
     </section>
   )

@@ -40,13 +40,27 @@ const Idap = ({}) => {
       </div>
       <div className="PortfolioItem__content">
         <h4 className="PortfolioItem__content-title">
-          Decision platform
+          <a href="https://candidate.votecompass.com/"> Informed Decision Assistance Platform (IDAP)
+          </a>
         </h4>
 
         <p className="PortfolioItem__content-description">
-          High performant back-end that powers multiple products, serving millions of users all over the world 
+          High performant service software and content management system that powers multiple products, serving millions of users all over the world 
         </p>
 
+        <div className="PortfolioItem__content-stack tags">
+          <span className="tag is-medium">Product Manager</span>
+          <span className="tag is-medium">Process flow owner</span>
+          <span className="tag is-medium">Continuous Improvements</span>
+          <span className="tag is-medium">New feature builds</span>
+          <span className="tag is-medium">Client and user management</span>
+          <span className="tag is-medium">Cross functional team training</span>
+
+        </div>
+
+        <h4 className="PortfolioItem__content-features-title">
+          Stack
+        </h4>
         <div className="PortfolioItem__content-stack tags">
           <span className="tag is-medium">Elixir</span>
           <span className="tag is-medium">Elixir: Absinthe GraphQL</span>
@@ -78,6 +92,19 @@ const Idap = ({}) => {
           <li>White label API</li>
           <li>Custom data types for application specific data structures</li>
         </ul>
+
+        <h4 className="PortfolioItem__content-features-title">
+          Powers
+        </h4>
+        <ul>
+          <li>CrowdQ by <a href="https://cryptoconsortium.org/" target="_blank">CryptoCurrency Certification Consortium (C4)</a></li>
+          <li>Vote Compass</li>
+          <li>Vote Compass Municipal + Candidate Portal </li>
+          <li>Vote Compass Youth Edition, in partnership with <a href="https://youth.votecompass.com/canada/" target="_blank">CIVIX</a></li>
+          <li>DegreeHub</li>
+          <li>The Sentimeter, in partnership with The Toronto Star</li>
+        </ul>
+
       </div>
     </div>
   )

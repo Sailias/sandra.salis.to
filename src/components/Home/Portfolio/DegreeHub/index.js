@@ -41,7 +41,7 @@ const DegreeHub = ({ expanded }) => {
       <div className="PortfolioItem__content">
         <h4 className="PortfolioItem__content-title">
           <a href="https://degreehub.macleans.ca" target="_blank">
-            Degree Hub
+            DegreeHub
           </a>
           {
             expanded && 
@@ -52,22 +52,33 @@ const DegreeHub = ({ expanded }) => {
         </h4>
 
         <p className="PortfolioItem__content-description">
-          DegreeHub helps prospective students estimate their likely level of satisfaction with programs and universities.
+          In partnership with Maclean's Magazine, our DegreeHub tool use artificial intelligence to match prospective students to undergraduate programs.
         </p>
 
         <div className="PortfolioItem__content-stack tags">
-          <span className="tag is-medium">React</span>
-          <span className="tag is-medium">Redux</span>
-          <span className="tag is-medium">Proprietary NPM packages</span>
-          <span className="tag is-medium">Ad network integration</span>
+          <span className="tag is-medium">Product Ideation through Delivery</span>
+          <span className="tag is-medium">User testing and research</span>
+          <span className="tag is-medium">Integrations</span>          
+          <span className="tag is-medium">Roadmapping</span>
+          <span className="tag is-medium">Product marketing</span>
+          <span className="tag is-medium">Brand</span>
+          <span className="tag is-medium">Project Manager</span>
+          <span className="tag is-medium">Partnerships Manager</span>
+          <span className="tag is-medium">Vendor Manager</span>
+
         </div>
 
         <h4 className="PortfolioItem__content-features-title">
           Features
         </h4>
         <ul>
-          <li>WGAG AA compliant</li>
+          <li>White label React application</li>
           <li>Load, display, and filter large amounts of academic data</li>
+          <li>Promotional landing page, survey and results page</li>
+          <li>Filtered views and Favouriting</li>
+          <li>Ad network integration (Rogers, Assembly) and analytics</li>
+          <li>WGAG AA compliant</li>
+
         </ul>
       </div>
     </div>

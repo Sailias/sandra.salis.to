@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
               <div className="navbar-brand">
                 <div className="navbar-item">
                   <img 
-                    src={ require("src/images/sandrasalis-favicon.png").default }
+                    src={ require("src/images/identicon-sandrasalis.png").default }
                     alt="Sandra Salis"
                     style={ {width: "28px", height: "28px"} }
                   />

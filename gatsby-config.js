@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Jon Salis`,
-    description: `Everything you need to know (career-wise) about Jon Salis`,
-    author: `@jonsalis`,
-    siteUrl: `https://jon.salis.to`,
+    title: `Sandra Salis`,
+    description: `Product management professsional Sandra Salis`,
+    author: `@sandrasalis`,
+    siteUrl: `https://sandra.salis.to`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -27,7 +27,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/sailias.png`, // This path is relative to the root of the site.
+        icon: `src/images/identicon-sandrasalis.png`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',

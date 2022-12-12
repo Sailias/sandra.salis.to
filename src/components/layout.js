@@ -41,13 +41,13 @@ const Layout = ({ children }) => {
               <div className="navbar-brand">
                 <div className="navbar-item">
                   <img 
-                    src={ require("src/images/sailias.png").default }
+                    src={ require("src/images/sandrasalis-favicon.png").default }
                     alt="Sandra Salis"
                     style={ {width: "28px", height: "28px"} }
                   />
                 </div>
                 <div className="navbar-item">
-                  Jon Salis
+                  Sandra Salis
                 </div>
               </div>
             </div>

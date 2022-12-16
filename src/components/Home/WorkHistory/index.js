@@ -26,8 +26,10 @@ const WorkHistory = ({ expanded }) => {
         </h5>
         <p className="WorkHistory__duration">
           Aug 2020 - present (fulltime)
-          Dec 2019 - Aug 2020 (consultant)
         </p>
+        <p className="WorkHistory__duration">
+          Sep 2019 - Aug 2020 (consultant)
+        </p>        
       </div>
 
 <div className="WorkHistory__item">

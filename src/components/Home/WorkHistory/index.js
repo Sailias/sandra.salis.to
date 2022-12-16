@@ -22,10 +22,11 @@ const WorkHistory = ({ expanded }) => {
           }
         </h4>
         <h5 className="WorkHistory__title">
-          Product Management Lead
+          Product Manager Lead
         </h5>
         <p className="WorkHistory__duration">
-          2020 - present
+          Aug 2020 - present (fulltime)
+          Dec 2019 - Aug 2020 (consultant)
         </p>
       </div>
 
@@ -45,14 +46,14 @@ const WorkHistory = ({ expanded }) => {
           Digital Product Manager
         </h5>
         <p className="WorkHistory__duration">
-          2019 - 2020
+          May 2019 - June 2020
         </p>
       </div>
 
       <div className="WorkHistory__item">
         <h4 className="WorkHistory__company">
           <a href="https://lighthouselabs.ca" target="_blank">
-            Lighthouse Labs Coding School
+            Lighthouse Labs
           </a>
           {
             expanded && 
@@ -65,7 +66,7 @@ const WorkHistory = ({ expanded }) => {
          Digital Marketing and Product Manager
         </h5>
         <p className="WorkHistory__duration">
-          2019 - 2020
+          June 2018 - May 2019
         </p>
       </div>
 
@@ -85,7 +86,7 @@ const WorkHistory = ({ expanded }) => {
           Digital Marketing Associate, Production Lead
         </h5>
         <p className="WorkHistory__duration">
-          2018 - 2019
+          Feb 2017 - June 2018
         </p>
       </div>
 
@@ -99,7 +100,7 @@ const WorkHistory = ({ expanded }) => {
           Intermediate Business Analyst
         </h5>
         <p className="WorkHistory__duration">
-          2014 - 2018
+          Dec 2014 - Feb 2017
         </p>
       </div>
 

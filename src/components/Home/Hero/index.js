@@ -8,16 +8,16 @@ const Hero = ({ expanded }) => {
       <div className="columns">
         <div className="column is-6">
           <h1 className="Hero__title">
-            Sandra Salis
+           <span>Sandra Salis</span>
           </h1>
 
           <h2 className="Hero__subtitle">
-            Toronto-based Digital Product Manager with a digital marketing and finance background - 10 years of experience
+            Toronto-based digital Product Manager with a marketing background and data-driven approach.
           </h2>
 
-          <h2 className="Hero__subtitle">
-          Let's talk about your product and marketing needs. Connect with me!
-          </h2>
+          <p className="Hero__subtext">
+          From ideation to delivery, let me help you bring your product vision to life.
+          </p>
 
           <div className="Hero__contact">
             <a href="mailto:sandra@salis.to">

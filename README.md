@@ -1,3 +1,11 @@
+## How to Run
+
+open iterm
+cd ~/Documents/GitHub/sandra.salis.to/
+gatsby develop
+visit http://localhost:8000/
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
